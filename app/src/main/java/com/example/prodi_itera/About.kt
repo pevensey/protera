@@ -8,6 +8,10 @@ class About  : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
 
+        val actionbar = supportActionBar
+
+        actionbar?.setDisplayHomeAsUpEnabled(true)
+        actionbar?.setDisplayShowHomeEnabled(true)
 
     }
 }

@@ -46,7 +46,6 @@ class MainActivity : AppCompatActivity() {
             R.id.action_list -> {
                 val intent = Intent(this, About::class.java)
                 this@MainActivity.startActivity(intent)
-                this@MainActivity.finish()
             }
         }
     }
