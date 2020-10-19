@@ -13,7 +13,8 @@ object Prodi_Data {
         "Teknik Geomatika",
         "Teknik Informatika",
         "Teknik Kelautan",
-        "Teknik Lingkungan")
+        "Teknik Lingkungan",
+        "Desain Komunikasi Visual")
 
     private val detail_prodi = arrayOf(
         "Program Studi Biologi ITERA berkonsentrasi pada eksplorasi keanekaragaman hayati di Pulau Sumatera. Keberadaan Program Studi Biologi ITERA diharapkan mampu menjadi pusat pembelajaran biodiversitas Sumatera.",
@@ -27,7 +28,8 @@ object Prodi_Data {
         "Program Studi ini bernama Teknik Geodesi dan Geomatika pada awalnya, dan diubah menjadi Teknik Geomatika menyesuaikan dengan nomenklatur terbaru mengenai nama prodi yang telah ditetapkan pemerintah. Geomatika muncul dalam konteks integrasi beberapa disiplin ilmu dan profesi yang berhubungan dengan data dan informasi geospasial (berhubungan dengan pengukuran dan pemetaan digital), masalah-masalah kebumian dan kelautan berikut semua aspek yang terkait didalamnya (penataan ruang, tata guna lahan, lingkungan, sosial ekonomi), serta komputer terapan.",
         "Cakupan bidang ilmu (body of knowledge) yang diajarkan di Program Studi Teknik Informatika meliputi ilmu pada area computer science dan software engineering sehingga mahasiswa memiliki kemampuan analisis persoalan yang terkait bidang computer science dan software engineering; dan juga kemampuan untuk mengembangkan solusi perangkat lunak (software) baik yang kompleks  maupun dalam skala besar (large scale software).",
         "Program Studi Teknik Kelautan adalah Program Studi yang memiliki kompetensi pembelajaran dalam bidang infrastruktur pantai dan pengelolaan wilayah pesisir. Mahasiswa juga mempelajari bagaimana merancang dan mengendalikan kondisi lingkungan di laut sehingga dapat bermanfaat dengan baik.",
-        "Teknik lingkungan merupakan bidang keilmuan yang mempelajari tindakan preventif (pencegahan) dan kuratif (penyembuhan) yang dapat dilakukan untuk menyelamatkan lingkungan air, tanah, dan udara melalui pendekatan rekayasa teknik. Teknik lingkungan dilatarbelakangi oleh upaya proteksi lingkungan akibat kegiatan manusia, proteksi kesehatan dan keselamatan manusia akibat penyakit, serta penaggulangan pencemaran kimia yang ada di lingkungan.")
+        "Teknik lingkungan merupakan bidang keilmuan yang mempelajari tindakan preventif (pencegahan) dan kuratif (penyembuhan) yang dapat dilakukan untuk menyelamatkan lingkungan air, tanah, dan udara melalui pendekatan rekayasa teknik. Teknik lingkungan dilatarbelakangi oleh upaya proteksi lingkungan akibat kegiatan manusia, proteksi kesehatan dan keselamatan manusia akibat penyakit, serta penaggulangan pencemaran kimia yang ada di lingkungan.",
+        "Program Studi Desain Komunikasi Visual Institut Teknologi Sumatera (DKV ITERA) dibangun oleh kerangka keilmuan multi-disiplin yang berakar dari ranah seni rupa dan desain. Dalam perkembangan keilmuannya, desain komunikasi visual tidak saja berfokus pada keilmuan seni rupa dan desain namun telah membentuk dirinya sendiri dengan beririsan dengan disiplin keilmuan komunikasi, psikologi, antropologi, sosiologi, kebudayaan, dan perkembangan teknologi mutakhir.")
 
     private val gambar_prodi = intArrayOf(
         R.mipmap.biologi_foreground,
@@ -41,7 +43,8 @@ object Prodi_Data {
         R.mipmap.teknik_geomatika_foreground,
         R.mipmap.teknik_informatika_foreground,
         R.mipmap.teknik_kelautan_foreground,
-        R.mipmap.teknik_lingkungan_foreground)
+        R.mipmap.teknik_lingkungan_foreground,
+        R.drawable.itera_dkv)
 
     val listData: ArrayList<Prodi>
         get() {
